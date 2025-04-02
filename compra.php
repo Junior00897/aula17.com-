@@ -1,5 +1,5 @@
 <?php require_once 'cabecalho.php'; ?>
-<form action="compra2.php" method="GET">
+<form action="compra2.php" method="POST">
 	<h1>Compra de Produtos</h1>
 	<p>Digite o preço unitário:</p>
 	<p><input type="number" name="preco" step="0.01" min="0.01" 

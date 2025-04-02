@@ -12,8 +12,10 @@ $pagina2=$_GET['pagina2'];
 
 if($pagina1>$pagina2){
  echo "<p>$titulo1, do $autor1 é o maior!";
-}else{
+}else if ($pagina2>$pagina1) {
 	echo "<p>$titulo2, do $autor2 é o maior";
+}else{
+	echo "<p>Estes livros são iguais</p>";
 }
 echo "<div id='links'><a href='livros.php' class='link'>Novo Teste?</a></div>";
 

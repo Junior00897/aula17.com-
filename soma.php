@@ -1,5 +1,5 @@
 <?php require_once 'cabecalho.php';?>
-<form action="soma2.php" method="GET">
+<form action="soma2.php" method="POST">
 	<h1>Somar números</h1>
 	<p>Digite um número</p>
 	<p><input type="number" step="0.01" name="numero1" required></p>

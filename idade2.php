@@ -3,13 +3,13 @@
 <?php
 	//$nascimento=$_GET['nascimento'];
 	//$idade=date('Y')-$nascimento;
-	$dianasci=$_GET['dianasci'];
+	$dianasci=$_POST['dianasci'];
 	$dianasci=new DateTime($dianasci);
 	$hoje=date('Y-m-d');
 	$hoje=new DateTime($hoje);
 	$idade=$hoje->diff($dianasci)->y;
 	echo "<p>Você tem $idade anos</p>";
-	echo "<p><a href='idade.php' class='link'>Novo Cálculo?</a></p>";
+	echo "<div id='links'><a href='idade.php' class='link'>Novo Cálculo?</a></div >";
 ?>
 </section>
 </body>

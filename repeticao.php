@@ -6,19 +6,19 @@
 		<div id="botoes">
 			<ul class="nav">
 				<li>
-					<a href="parouimpar.php" target="janela">Par_Ímpar</a>
+					<a href="contagem.php" target="janela">Contagem</a>
 				</li>
 				<li>
-					<a href="SENAC.php" target="janela">SENAC</a>
+					<a href="fatorial.php" target="janela">Fatorial</a>
 				</li>
 				<li>
-					<a href="livros.php" target="janela">Livros</a>	
+					<a href="tabuada.php" target="janela">Tabuada</a>	
 				</li>
 				<li>
-					<a href="escola.php" target="janela">Escola</a>
+					<a href="media.php" target="janela">Média</a>
 				</li>
 				<li>
-					<a href="repeticao.php">Repetição</a>
+					<a href="oo.php">Orient. Obj.</a>
 				</li>
 			</ul>
 		</div>

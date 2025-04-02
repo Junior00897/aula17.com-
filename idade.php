@@ -1,5 +1,5 @@
 <?php require_once 'cabecalho.php'; ?>
-<form action="idade2.php" method="GET">
+<form action="idade2.php" method="POST">
 	<h1>Cálculo da Idade</h1>
 	<!--
 	<p>Digite o ano de nascimento:</p>
